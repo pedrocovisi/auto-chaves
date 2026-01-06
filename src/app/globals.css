@@ -10,6 +10,16 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand Colors */
+  --color-brand: #2b6dfc;
+  --color-brand-hover: #262af8;
+  --color-brand-red: #d32f2f; 
+
+  /* Dark Mode Colors */
+  --color-dark-main: #1B1D1E;
+  --color-dark-surface: #25282A;
+  --color-dark-border: #334155;
 }
 
 @media (prefers-color-scheme: dark) {

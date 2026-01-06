@@ -9,16 +9,16 @@ export default function Navbar() {
 
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-blue-500">
-              AUTO<span className="text-red-500">CHAVES</span>
+            <span className="text-2xl font-bold text-brand">
+              AUTO<span className="text-brand-red">CHAVES</span>
             </span>
           </div>
 
           {/* Menu */}
           <div className="hidden md:flex space-x-8 font-medium">
-            <a href="#" className="hover:text-yellow-500 transition">Início</a>
-            <a href="#" className="hover:text-yellow-500 transition">Serviços</a>
-            <a href="#" className="hover:text-yellow-500 transition">Agendar</a>
+            <a href="#" className="hover:text-brand transition">Início</a>
+            <a href="#" className="hover:text-brand transition">Serviços</a>
+            <a href="#" className="hover:text-brand transition">Agendar</a>
           </div>
 
           {/* Botão WhatsApp */}
