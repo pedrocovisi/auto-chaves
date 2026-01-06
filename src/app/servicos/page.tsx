@@ -48,7 +48,6 @@ export default function ServicesPage() {
             <Navbar />
 
             <div className="flex-grow">
-                {/* Header da Página */}
                 <div className="bg-slate-900 py-16 text-center border-b border-slate-800">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                         Nossos <span className="text-brand text-glow-subtle">Serviços</span>
@@ -58,7 +57,6 @@ export default function ServicesPage() {
                     </p>
                 </div>
 
-                {/* Lista de Serviços */}
                 <section className="py-16 md:py-24 max-w-7xl mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {services.map((service, index) => (
@@ -84,7 +82,6 @@ export default function ServicesPage() {
                         ))}
                     </div>
 
-                    {/* CTA Final */}
                     <div className="mt-20 text-center bg-gradient-to-r from-slate-900 to-slate-800 p-10 rounded-3xl shadow-2xl border border-slate-700">
                         <h2 className="text-3xl font-bold text-white mb-6">Não encontrou o que precisa?</h2>
                         <p className="text-slate-300 mb-8 text-lg">

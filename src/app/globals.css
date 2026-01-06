@@ -10,12 +10,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-roboto);
 
-  /* Brand Colors */
   --color-brand: #2b6dfc;
   --color-brand-hover: #262af8;
   --color-brand-red: #d32f2f;
 
-  /* Dark Mode Colors */
   --color-dark-main: #1B1D1E;
   --color-dark-surface: #25282A;
   --color-dark-border: #334155;
@@ -34,7 +32,6 @@ body {
   font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;

@@ -16,10 +16,8 @@ export default function MapSection() {
           </p>
         </div>
 
-        {/* Container do Mapa com sombra e bordas arredondadas */}
         <div className="w-full h-[400px] bg-brand rounded-2xl overflow-hidden shadow-lg relative">
 
-          {/* O IFRAME DO GOOGLE MAPS */}
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9504207671307!2d-47.1790034!3d-22.7300841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c895c23478e6b3%3A0x42fc83d82f3dba3!2sAUTO%20CHAVES%20PAULINIA!5e0!3m2!1spt-BR!2sbr!4v1767660775290!5m2!1spt-BR!2sbr"
             width="100%"
@@ -32,7 +30,6 @@ export default function MapSection() {
 
         </div>
 
-        {/* Botão para abrir no Waze/Maps nativo */}
         <div className="text-center mt-8">
           <a
             href="https://maps.app.goo.gl/NrrEtDTe8BzTFYgx8"

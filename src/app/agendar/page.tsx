@@ -9,7 +9,6 @@ export default function AgendarPage() {
             <Navbar />
 
             <div className="flex-grow">
-                {/* Header */}
                 <div className="bg-slate-900 py-16 text-center border-b border-slate-800">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                         Agende seu <span className="text-brand text-glow-subtle">Atendimento</span>
@@ -22,7 +21,6 @@ export default function AgendarPage() {
                 <section className="py-16 max-w-6xl mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
-                        {/* Coluna da Esquerda: Contato Rápido */}
                         <div>
                             <h2 className="text-3xl font-bold text-white mb-8">Emergência?</h2>
 
@@ -65,7 +63,6 @@ export default function AgendarPage() {
                             </div>
                         </div>
 
-                        {/* Coluna da Direita: Formulário */}
                         <div className="bg-[#25282A] p-8 md:p-10 rounded-3xl shadow-xl border border-slate-800">
                             <h2 className="text-2xl font-bold text-white mb-6">Solicitar Agendamento</h2>
                             <form className="space-y-5">

@@ -40,6 +40,15 @@ export default function Services() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 text-center">
+          <a
+            href="/servicos"
+            className="inline-flex items-center gap-2 border-2 border-brand text-brand hover:bg-brand hover:text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105"
+          >
+            Ver todos os serviços
+          </a>
+        </div>
       </div>
     </section>
   );
