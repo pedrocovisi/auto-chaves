@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
@@ -16,9 +17,9 @@ export default function Navbar() {
 
           {/* Menu */}
           <div className="hidden md:flex space-x-8 font-medium">
-            <a href="#" className="hover:text-brand transition">Início</a>
-            <a href="#" className="hover:text-brand transition">Serviços</a>
-            <a href="#" className="hover:text-brand transition">Agendar</a>
+            <Link href="/" className="hover:text-brand transition">Início</Link>
+            <Link href="/servicos" className="hover:text-brand transition">Serviços</Link>
+            <Link href="/agendar" className="hover:text-brand transition">Agendar</Link>
           </div>
 
           {/* Botão WhatsApp */}
