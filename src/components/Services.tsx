@@ -26,11 +26,10 @@ export default function Services() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Nossos Serviços
         </h2>
-        
-        {/* Grid: 1 coluna no celular, 3 no computador */}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-[#25282A] p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow border-b-4 border-brand-hover">
+            <div key={index} className="bg-[#25282A] p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-b-4 border-brand-hover">
               <div className="flex justify-center">
                 {service.icon}
               </div>

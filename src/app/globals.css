@@ -8,13 +8,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-roboto);
 
   /* Brand Colors */
   --color-brand: #2b6dfc;
   --color-brand-hover: #262af8;
-  --color-brand-red: #d32f2f; 
+  --color-brand-red: #d32f2f;
 
   /* Dark Mode Colors */
   --color-dark-main: #1B1D1E;
@@ -32,5 +31,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
 }
