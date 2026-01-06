@@ -6,14 +6,14 @@ export default function Footer() {
     <footer className="bg-dark-main py-12 border-t border-slate-800">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
+
           <div>
-            <span className="text-2xl font-bold text-brand tracking-tighter block mb-4">
+            <span className="text-2xl font-bold text-brand tracking-tighter block mb-4 text-glow">
               AUTO
-              <span className="text-brand-red">CHAVES</span>
+              <span className="text-brand-red text-glow-red">CHAVES</span>
             </span>
             <p className="text-sm leading-relaxed mb-4">
-              Sua solução rápida e confiável para problemas com chaves automotivas e residenciais. 
+              Sua solução rápida e confiável para problemas com chaves automotivas e residenciais.
               Atendemos sempre com excelência e equipamentos de última geração.
             </p>
           </div>

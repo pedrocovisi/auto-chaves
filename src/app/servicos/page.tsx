@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 {/* Header da Página */}
                 <div className="bg-slate-900 py-16 text-center border-b border-slate-800">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Nossos <span className="text-brand">Serviços</span>
+                        Nossos <span className="text-brand text-glow-subtle">Serviços</span>
                     </h1>
                     <p className="text-slate-400 max-w-2xl mx-auto px-4 text-lg">
                         Confira a lista completa de soluções que oferecemos. Tecnologia de ponta e profissionais qualificados para atender sua necessidade.

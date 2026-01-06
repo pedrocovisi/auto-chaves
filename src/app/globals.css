@@ -33,3 +33,58 @@ body {
   color: var(--foreground);
   font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
 }
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px #2b6dfc, 0 0 20px rgba(43, 109, 252, 0.5);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 10px #d32f2f, 0 0 20px rgba(211, 47, 47, 0.5);
+}
+
+.text-glow-subtle {
+  text-shadow: 0 0 8px rgba(43, 109, 252, 0.4);
+}

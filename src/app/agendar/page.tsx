@@ -12,7 +12,7 @@ export default function AgendarPage() {
                 {/* Header */}
                 <div className="bg-slate-900 py-16 text-center border-b border-slate-800">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Agende seu <span className="text-brand">Atendimento</span>
+                        Agende seu <span className="text-brand text-glow-subtle">Atendimento</span>
                     </h1>
                     <p className="text-slate-400 max-w-2xl mx-auto px-4 text-lg">
                         Preencha o formulário abaixo ou entre em contato direto pelo WhatsApp para atendimento imediato.

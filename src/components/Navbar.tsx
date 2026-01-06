@@ -4,14 +4,14 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-slate-900/95 backdrop-blur-md text-white shadow-lg sticky top-0 z-50 border-b border-slate-800/50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-brand">
-              AUTO<span className="text-brand-red">CHAVES</span>
+            <span className="text-2xl font-bold text-brand text-glow">
+              AUTO<span className="text-brand-red text-glow-red">CHAVES</span>
             </span>
           </div>
 
