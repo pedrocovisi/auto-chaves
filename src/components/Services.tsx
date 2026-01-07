@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCar, FaHome, FaKey } from "react-icons/fa";
+import Link from 'next/link';
 
 export default function Services() {
   const services = [
@@ -42,12 +43,12 @@ export default function Services() {
         </div>
 
         <div className="mt-12 text-center">
-          <a
+          <Link
             href="/servicos"
             className="inline-flex items-center gap-2 border-2 border-brand text-brand hover:bg-brand hover:text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105"
           >
             Ver todos os serviços
-          </a>
+          </Link>
         </div>
       </div>
     </section>

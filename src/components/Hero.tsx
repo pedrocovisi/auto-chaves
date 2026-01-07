@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPhoneAlt, FaWhatsapp, FaCalendarAlt } from "react-icons/fa";
+import Link from 'next/link';
 
 export default function Hero() {
     return (
@@ -32,9 +33,9 @@ export default function Hero() {
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4 px-4 animate-slide-up delay-200 opacity-0" style={{ animationFillMode: 'forwards' }}>
 
-                    <a href="/agendar" className="group flex items-center justify-center gap-3 bg-brand hover:bg-brand-hover text-white px-8 py-5 rounded-full font-bold text-lg md:text-xl transition-all hover:scale-105 shadow-[0_0_20px_rgba(43,109,252,0.5)] hover:shadow-[0_0_30px_rgba(43,109,252,0.8)] border border-brand-hover/50">
+                    <Link href="/agendar" className="group flex items-center justify-center gap-3 bg-brand hover:bg-brand-hover text-white px-8 py-5 rounded-full font-bold text-lg md:text-xl transition-all hover:scale-105 shadow-[0_0_20px_rgba(43,109,252,0.5)] hover:shadow-[0_0_30px_rgba(43,109,252,0.8)] border border-brand-hover/50">
                         <FaCalendarAlt className="" /> Agende agora
-                    </a>
+                    </Link>
 
                     <a href="https://wa.me/" target="_blank" className="flex items-center justify-center gap-3 bg-green-600 hover:bg-green-600/90 text-white px-8 py-5 rounded-full font-bold text-lg md:text-xl transition-all hover:scale-105 shadow-[0_0_20px_rgba(22,163,74,0.4)] hover:shadow-[0_0_30px_rgba(22,163,74,0.6)] border border-green-500/50">
                         <FaWhatsapp size={28} /> Orçamento no Whatsapp
